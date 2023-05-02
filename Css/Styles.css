@@ -1,0 +1,110 @@
+/*Color de fondo de la pagina*/
+body{
+    background-color:rgb(255, 255, 255);
+	background-image: url("https://img.freepik.com/foto-gratis/textura-tablas-madera_1249-169.jpg");
+	background-size: 100vw 100vh;
+	background-repeat:initial;
+}
+/*Esta parte pertenece a lo que es la imagen de fondo en la seccion superior izquierda*/
+.Logotipo{    
+    background-image: url("./Pictures/logotipo.png");
+    background-size: 15%, 9%;
+    background-repeat: no-repeat;
+    background-position:right;
+    padding: 40;    
+    margin-right: 5%;	
+    margin-top: 2.99999%;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}		
+
+/*Tipografia de titulo(h1) y subtitulos(h2)*/
+main h1{  
+	color:rgb(139, 4, 4);  
+    font-size: 600%;
+    text-align: center;
+    margin: 0%;
+    padding-top: 2%;
+}
+.Bloque1 h2{
+    color:rgb(124, 5, 5);
+    font-size: 28px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+/*Separacion de texto y establecimiento de tipografias*/
+
+.Bloque1{
+    display: flex; 
+    padding-right: 100px;
+	padding-left: 100px;
+}
+.Bloque1 .Seccion1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: right; 
+    padding-left: 10%;
+
+}
+.Bloque1 .Seccion2{
+    text-align: center;           
+}
+.Bloque1 .Seccion2:hover{
+    transform: scale(1.1);
+	transition: transform 1s ease-in-out;
+}
+.Seccion1, .Seccion2{
+    flex-basis: 50%;
+}
+.Bloque2{
+    display: flex; 
+    padding-left: 100px;
+}
+.Bloque2 h2{
+    color:rgb(124, 5, 5);
+    font-size: 28px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.Bloque2 .Seccion3{
+    padding-left: auto;
+    padding-right: 10px;
+}
+.Bloque2 .Seccion4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: right; 
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.Seccion4, .Seccion3{
+    flex-basis: 50%;
+}
+.Bloque2 table{    
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+th{
+    transition: transform 0.3s ease-in-out;
+}
+th:hover{
+    transform: scale(1.1);
+}
+.PiePagina footer{
+	text-align: center;
+	font: 1em sans-serif;
+	font-size:  20px;
+	padding: auto;
+	margin-top: 30px;
+	background-color:rgb(179, 19, 19);
+}
+
+

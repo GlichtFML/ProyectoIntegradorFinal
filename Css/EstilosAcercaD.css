@@ -1,0 +1,36 @@
+main h1 {
+    color: rgb(4, 76, 231);
+    font-size: 600%;
+    text-align: center;
+    margin: 0%;
+    padding-top: 2%;
+}
+
+.tarjetasPresentacion {
+    padding: 5%;
+}
+
+body {
+    background-image: url("https://us.123rf.com/450wm/sumaetho/sumaetho1506/sumaetho150601501/41740000-fondo-azul-del-mosaico-poligonal-blanco-ilustraci%C3%B3n-vectorial-plantillas-del-dise%C3%B1o-del-negocio.jpg?ver=6");
+    background-size: 100vw 100vh;
+    background-repeat: initial;
+}
+
+.Conclusiones h2{
+    color:rgb(253, 0, 0);
+    font-size: 28px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Conclusiones{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: right; 
+    padding: 5%;
+}
+.Conclusiones p{
+    color: rgb(68, 0, 255);
+}
+

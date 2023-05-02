@@ -1,0 +1,67 @@
+/*Estilos2*/
+* {
+	color: rgb(14, 13, 13);
+
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+	background-image: url("https://web.biocomlux.com/wp-content/uploads/2017/06/fondo-de-slider.jpg");
+	background-size: 100vw 100vh;
+	background-repeat: initial;
+	margin: 0;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+/*Tipografia de titulo(h1) y subtitulos(h2)*/
+main h1 {
+	color: rgb(179, 19, 19);
+	font-size: 400%;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+}
+
+.clearfix {
+	padding: 5%;
+}
+
+.clearfix h2 {
+	color: rgb(124, 5, 5);
+	font-size: 28px;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+}
+
+.clearfix p {
+	color: black;
+}
+
+.clearfix b {
+	color: rgb(184, 11, 11);
+}
+
+.TextoFinal {
+	padding: 5%;
+}
+.TextoFinal h2{
+	color: rgb(124, 5, 5);
+	font-size: 28px;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+}
+.TextoFinal img{
+	text-align: center;
+}
+
+.PiePagina {
+	text-align: center;
+	font: 1em sans-serif;
+	font-size: 20px;
+	padding: auto;
+	margin-top: 30px;
+	background-color: rgb(179, 19, 19);
+}

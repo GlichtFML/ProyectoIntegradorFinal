@@ -1,0 +1,67 @@
+*{
+    color: rgb(14, 13, 13);
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    background-size: 100vw 100vh;
+	background-repeat: initial;
+	margin: 0;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+main h1 {
+	color: rgb(179, 19, 19);
+	font-size: 400%;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+    padding-top: 2%;
+}
+
+.clearfix {
+	padding: 5%;
+}
+
+.clearfix h2 {
+	color: rgb(2, 17, 156);
+	font-size: 28px;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+}
+
+.clearfix p {
+	color: black;
+}
+#input-form{
+    padding-left: 5%;
+}
+#output{
+    padding-left: 5%;
+}
+
+.TextoFinal {
+	padding: 5%;
+}
+.TextoFinal h2{
+	color: rgb(2, 17, 156);
+	font-size: 28px;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+}
+.TextoFinal .img-fluid{
+	text-align: center;
+    padding-left: 20%;
+}
+
+.PiePagina {
+	text-align: center;
+	font: 1em sans-serif;
+	font-size: 20px;
+	padding: auto;
+	margin-top: 30px;
+	background-color: rgb(179, 19, 19);
+}
